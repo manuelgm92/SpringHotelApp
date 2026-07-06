@@ -1,0 +1,11 @@
+# Ignorar carpeta de compilación de Maven
+target/**
+
+# Ignorar archivos de configuración de Eclipse
+.settings/**
+.project
+.classpath
+bin/
+
+/target/
+.settings/org.eclipse.core.resources.prefs

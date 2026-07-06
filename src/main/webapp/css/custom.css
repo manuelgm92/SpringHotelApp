@@ -1,0 +1,145 @@
+/* Configuracion global de pagina */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+}
+
+body.home-bg {
+    background: linear-gradient(135deg, #1a237e 0%, #3949ab 100%);
+    min-height: 100vh;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Fondo especifico si se usa la clase .fondo */
+body.fondo {
+    background-color: #f8f9fa;
+    display: block;
+}
+
+.welcome-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* Contenedor principal de Login */
+.login-container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 100vh; /* Altura total de la pantalla */
+    width: 100%;       /* Ancho total de la pantalla */
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #1a237e !important;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #283593;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1a237e;
+}
+
+/* Efectos para el resto del sistema */
+.hover-card {
+    transition: all 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+.nav-link {
+    color: rgba(255,255,255,0.8) !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+.btn-action {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	padding: 8px 12px;
+	font-size: 12px;
+	border-radius: 6px;
+	transition: all 0.3s ease;
+	text-decoration: none;
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+	margin-right: 4px;
+	margin-bottom: 4px;
+}
+
+.btn-detalle {
+	background-color: #283593;
+	color: white;
+}
+
+.btn-detalle:hover {
+	background-color: #1a237e;
+	color: white;
+	text-decoration: none;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(26, 35, 126, 0.3);
+}
+
+.btn-editar {
+	background-color: #43a047;
+	color: white;
+}
+
+.btn-editar:hover {
+	background-color: #388e3c;
+	color: white;
+	text-decoration: none;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(56, 142, 60, 0.3);
+}
+
+.btn-eliminar {
+	background-color: #e53935;
+	color: white;
+}
+
+.btn-eliminar:hover {
+	background-color: #c62828;
+	color: white;
+	text-decoration: none;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(198, 40, 40, 0.3);
+}
+
